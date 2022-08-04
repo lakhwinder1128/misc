@@ -1,0 +1,8 @@
+ long long noOfNumbers(long long n) {
+        // code here
+        long long two=n/2;
+        long long three=n/3-n/6;
+        long long five=n/5-(n/10+n/15-n/30);
+        long long seven=n/7-(n/14+n/21+n/35-n/42-n/105-n/70+n/210);
+        return n-two-three-five-seven;
+    }
